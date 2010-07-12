@@ -2,6 +2,14 @@
 
 See http://alias-i.com/lingpipe/index.html
 
+== Dependencies
+
+JRuby
+
+== Demos
+
+jruby -S rake demos:dictionary_chunker
+
 == Note on Patches/Pull Requests
  
 * Fork the project.
