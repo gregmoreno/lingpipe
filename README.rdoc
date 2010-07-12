@@ -1,6 +1,6 @@
-= lingpipe
+= LingPipe
 
-Description goes here.
+See http://alias-i.com/lingpipe/index.html
 
 == Note on Patches/Pull Requests
  
