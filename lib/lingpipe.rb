@@ -6,6 +6,8 @@ module LingPipe
   IndoEuropeanTokenizerFactory = Java::com.aliasi.tokenizer.IndoEuropeanTokenizerFactory
   TrieDictionary = Java::com.aliasi.dict.TrieDictionary
 
+  AbstractExternalizable = Java::com.aliasi.util.AbstractExternalizable
+
   class ExactDictionaryChunker
     def initialize
       @tokenizer = IndoEuropeanTokenizerFactory.new  

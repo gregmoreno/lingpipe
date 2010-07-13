@@ -56,13 +56,15 @@ end
 
 namespace :demos  do
   [['dictionary-chunker', 'ne/dictionary_chunker.rb'],
-   ['approx-chunker', 'ne/approximate_chunker.rb']
+   ['approx-chunker',     'ne/approximate_chunker.rb'],
+   ['run-genetag',        'ne/run_chunker.rb'],
+   ['run-genetag-conf',   'ne/run_confidence_chunker.rb']
   ].each do |t, f|
     instance_eval <<-EOT
       Rake::TestTask.new('#{t}') do |test|
         test.libs << 'lib'
         test.ruby_opts << '-rubygems'
-        test.pattern = 'demos/#{f}'
+        test.pattern = 'demos/tutorial/#{f}'
       end
     EOT
   end
