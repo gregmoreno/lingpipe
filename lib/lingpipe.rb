@@ -6,6 +6,9 @@ module LingPipe
   IndoEuropeanTokenizerFactory = Java::com.aliasi.tokenizer.IndoEuropeanTokenizerFactory
   TrieDictionary = Java::com.aliasi.dict.TrieDictionary
 
+  HmmCharLmEstimator = Java::com.aliasi.hmm.HmmCharLmEstimator
+  CharLmHmmChunker = Java::com.aliasi.chunk.CharLmHmmChunker
+
   AbstractExternalizable = Java::com.aliasi.util.AbstractExternalizable
 
   class ExactDictionaryChunker
