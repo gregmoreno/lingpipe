@@ -59,7 +59,11 @@ namespace :demos  do
    ['approx-chunker',     'ne/approximate_chunker.rb'],
    ['run-genetag',        'ne/run_chunker.rb'],
    ['run-genetag-conf',   'ne/run_confidence_chunker.rb'],
-   ['train-genetag',      'ne/train_genetag.rb']
+   ['train-genetag',      'ne/train_genetag.rb'],
+
+   ['findbounds', 'sentences/sentence_boundary.rb'],
+   ['findchunks', 'sentences/sentence_chunker.rb']
+
   ].each do |t, f|
     instance_eval <<-EOT
       Rake::TestTask.new('#{t}') do |test|

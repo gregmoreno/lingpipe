@@ -11,6 +11,10 @@ module LingPipe
 
   AbstractExternalizable = Java::com.aliasi.util.AbstractExternalizable
 
+  MedlineSentenceModel = Java::com.aliasi.sentences.MedlineSentenceModel
+  SentenceChunker = Java::com.aliasi.sentences.SentenceChunker
+  SentenceModel = Java::com.aliasi.sentences.SentenceModel
+
   class ExactDictionaryChunker
     def initialize
       @tokenizer = IndoEuropeanTokenizerFactory.new  
