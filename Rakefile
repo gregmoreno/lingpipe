@@ -62,7 +62,9 @@ namespace :demos  do
    ['train-genetag',      'ne/train_genetag.rb'],
 
    ['findbounds', 'sentences/sentence_boundary.rb'],
-   ['findchunks', 'sentences/sentence_chunker.rb']
+   ['findchunks', 'sentences/sentence_chunker.rb'],
+
+   ['run-medpost', 'posTags/run_medpost.rb']
 
   ].each do |t, f|
     instance_eval <<-EOT

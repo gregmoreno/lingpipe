@@ -3,10 +3,18 @@ require 'java'
 module LingPipe
   DictionaryEntry = Java::com.aliasi.dict.DictionaryEntry
   MapDictionary = Java::com.aliasi.dict.MapDictionary
-  IndoEuropeanTokenizerFactory = Java::com.aliasi.tokenizer.IndoEuropeanTokenizerFactory
   TrieDictionary = Java::com.aliasi.dict.TrieDictionary
 
+  Tokenizer = Java::com.aliasi.tokenizer.Tokenizer
+  TokenizerFactory = Java::com.aliasi.tokenizer.TokenizerFactory
+  RegExTokenizerFactory = Java::com.aliasi.tokenizer.RegExTokenizerFactory
+  IndoEuropeanTokenizerFactory = Java::com.aliasi.tokenizer.IndoEuropeanTokenizerFactory
+
+
   HmmCharLmEstimator = Java::com.aliasi.hmm.HmmCharLmEstimator
+  HiddenMarkovModel = Java::com.aliasi.hmm.HiddenMarkovModel
+  HmmDecoder = Java::com.aliasi.hmm.HmmDecoder
+
   CharLmHmmChunker = Java::com.aliasi.chunk.CharLmHmmChunker
 
   AbstractExternalizable = Java::com.aliasi.util.AbstractExternalizable
