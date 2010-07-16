@@ -9,7 +9,7 @@ module LingPipe
   TokenizerFactory = Java::com.aliasi.tokenizer.TokenizerFactory
   RegExTokenizerFactory = Java::com.aliasi.tokenizer.RegExTokenizerFactory
   IndoEuropeanTokenizerFactory = Java::com.aliasi.tokenizer.IndoEuropeanTokenizerFactory
-
+  TokenizedLM = Java::com.aliasi.lm.TokenizedLM
 
   HmmCharLmEstimator = Java::com.aliasi.hmm.HmmCharLmEstimator
   HiddenMarkovModel = Java::com.aliasi.hmm.HiddenMarkovModel
